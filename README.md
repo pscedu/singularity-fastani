@@ -1,6 +1,4 @@
 # singularity-fastani
-[![Build Status](https://www.travis-ci.com/icaoberg/singularity-fastani.svg?branch=main)](https://www.travis-ci.com/icaoberg/singularity-fastani)
-
 Singularity recipe for fastANI.
 
 ## Building the image using the recipe
