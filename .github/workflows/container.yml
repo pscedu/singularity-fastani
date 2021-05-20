@@ -29,3 +29,10 @@ jobs:
            echo "Present working directory: $PWD"
            ls
        fi
+
+       if [ -f ${OUTPUT_CONTAINER} ]; then 
+           echo "${OUTPUT_CONTAINER} image found."
+       else
+           echo "${OUTPUT_CONTAINER} image not found."
+           exit 1
+       end
