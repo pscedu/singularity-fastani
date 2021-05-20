@@ -35,4 +35,4 @@ jobs:
        else
            echo "${OUTPUT_CONTAINER} image not found."
            exit 1
-       end
+       fi
