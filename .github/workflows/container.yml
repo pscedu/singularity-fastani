@@ -1,4 +1,4 @@
-name: Singularity Build (Docker)
+name: Singularity Build
 on: [push]
 jobs:
 
