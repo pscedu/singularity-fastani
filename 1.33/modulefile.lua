@@ -12,8 +12,8 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: FastANI is developed for fast alignment-free computation of whole-genome Average Nucleotide Identity (ANI).")
 
 help([[
-fastANIO 1.33
--------------
+fastANI 1.33
+------------
 
 Description
 -----------
@@ -35,7 +35,6 @@ For help, type
 
 Repository
 ----------
-
 Tools included in this module are
 
 * fastANI
