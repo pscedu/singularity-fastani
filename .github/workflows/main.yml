@@ -33,6 +33,8 @@ jobs:
                ls -lta
            fi
 
+           bash ./build.sh
+
            if [ -f ${OUTPUT_CONTAINER} ]; then
                echo "${OUTPUT_CONTAINER} image found."
            else
