@@ -21,18 +21,24 @@ jobs:
         SINGULARITY_RECIPE: Singularity
         OUTPUT_CONTAINER: container.sif
       run: |
-       cd 1.33
-       if [ -f "${SINGULARITY_RECIPE}" ]; then
-           singularity build ${OUTPUT_CONTAINER} ${SINGULARITY_RECIPE}
-       else
-           echo "${SINGULARITY_RECIPE} is not found."
-           echo "Present working directory: $PWD"
-           ls
-       fi
+       for DIRECTORY in *
+       do
+         if [ -d $DIRECTORY ]; then
+           cd $DIRECTORY
+           if [ -f "${SINGULARITY_RECIPE}" ]; then
+               singularity build ${OUTPUT_CONTAINER} ${SINGULARITY_RECIPE}
+           else
+               echo "${SINGULARITY_RECIPE} is not found."
+               echo "Present working directory: $PWD"
+               ls -lta
+           fi
 
-       if [ -f ${OUTPUT_CONTAINER} ]; then 
-           echo "${OUTPUT_CONTAINER} image found."
-       else
-           echo "${OUTPUT_CONTAINER} image not found."
-           exit 1
-       fi
+           if [ -f ${OUTPUT_CONTAINER} ]; then
+               echo "${OUTPUT_CONTAINER} image found."
+           else
+               echo "${OUTPUT_CONTAINER} image not found."
+               exit 1
+           fi
+           cd ..
+         fi
+       done
