@@ -1,5 +1,5 @@
 # singularity-fastani
-Singularity recipe for fastANI.
+Singularity recipe for [fastANI](github.com/parbliss/fastani).
 
 ## Building the image using the recipe
 
