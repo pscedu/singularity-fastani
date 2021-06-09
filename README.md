@@ -9,7 +9,7 @@ Copy the
 
 to `/opt/packages/fastANI/1.33`.
 
-Copy the file `modulefile.lua` to `/opt/modules/fastANI` as `1.33`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/fastANI` as `1.33`.
 
 ## Building the image using the recipe
 
