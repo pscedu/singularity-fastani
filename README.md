@@ -1,3 +1,9 @@
+![Status](https://github.com/pscedu/singularity-fastani/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-fastani)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-fastani)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-fastani)
+![License](https://img.shields.io/github/license/pscedu/singularity-fastani)
+
 # singularity-fastani
 Singularity recipe for [fastANI](github.com/parbliss/fastani).
 
