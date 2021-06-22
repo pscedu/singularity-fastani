@@ -1,4 +1,6 @@
 # singularity-fastani
+![Status](https://github.com/pscedu/singularity-fastani/actions/workflows/main.yml/badge.svg)
+
 Singularity recipe for [fastANI](github.com/parbliss/fastani).
 
 ## Installing the container on Bridges 2
