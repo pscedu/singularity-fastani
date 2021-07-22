@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
 -- "Description: FastANI is developed for fast alignment-free computation of whole-genome Average Nucleotide Identity (ANI)."
+-- "Keywords: singularity bioinformatics"
 
 whatis("Name: fastANI")
 whatis("Version: 1.33")
